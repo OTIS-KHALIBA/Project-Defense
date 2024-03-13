@@ -1,0 +1,180 @@
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body{
+    background-color:black;
+    /* background-image: url(marketing.jpg); */
+    background-size: cover;
+    background-position: center;
+    font-family:Georgia;
+}
+
+.menu{
+    background: red;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+
+.menu ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.Active, .menu ul li:hover{
+    background:black;
+    border-radius: 3px;
+}
+
+.sub-menu1{
+    display: none;
+
+}
+
+.menu ul li:hover .sub-menu1{
+    display: block;
+    position: absolute;
+    background: black;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu ul li:hover .sub-menu1 ul{
+    display: block;
+    margin: 10px;
+
+}
+
+.menu ul li:hover .sub-menu1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.menu ul li:hover .sub-menu1 ul li:last-child{
+    border-bottom: none;
+
+}
+
+.menu ul li:hover .sub-menu1 ul li a:hover{
+    color: black;
+}
+
+.sub-menu2{
+    display: none;
+}
+
+.menu ul li:hover .sub-menu2{
+    display: block;
+    position: absolute;
+    background: black;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+
+.menu ul li:hover .sub-menu2 ul{
+    display: block;
+    margin: 10px;
+}
+
+.menu ul li:hover .sub-menu2 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.menu ul li:hover .sub-menu2 ul li:last-child{
+    border-bottom: none;
+
+}
+
+.menu ul li:hover .sub-menu2 ul li a:hover{
+    color: black;
+}
+
+.First{
+    background-color: transparent;
+    margin: 30px;
+    /* padding: 40px; */
+    border-radius: 20px;
+}
+
+.First header{
+    font-family: fantasy;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.First p{
+    text-decoration:solid;
+    font-size:large;
+    font-family: georgia;
+    color:white;
+}
+
+.menu img{
+    padding: 0.3px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.First img{
+    margin-top: 50px;
+    border-radius: 90px;
+}
+
+.levi{
+    font-size:larger;
+    /* color:whitesmoke; */
+    margin: 20px;
+    padding-top: 70px;
+}
+
+/* footer{ */
+    /* background-color:red; */
+    /* width: 70px; */
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* background: linear-gradient(to right,#0093c, #2b2b2b); */
+/* } */
+
+.col{
+    white-space: 30px;
+    background-color: red;
+    margin-top: 90px;
+    border-radius: 20px;
+    text-align: center;
+    justify-items: center;
+    width:fit-content;
+
+}
+
+
+.col a {
+    justify-content: space-between;
+}
+

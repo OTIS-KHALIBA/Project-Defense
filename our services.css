@@ -1,0 +1,66 @@
+*{
+    margin:0;
+}
+
+body{
+    /* background-color: lemonchiffon; */
+    background-image: url(marketing.jpg);
+    
+}
+li:before{
+    content: "\1F495";
+    list-style:inside;
+    
+}
+
+.King{
+    background-color:navy;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.before li{
+    /* color: aquamarine; */
+    list-style: none;
+    font-size: x-large;
+    font-family: georgia;
+}
+
+.icon a{
+    float: right;
+    
+}
+
+.icon{
+    background-color: red;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.before{
+    text-align: center;
+}
+
+li:hover{
+    /* background-color:white; */
+    /* color: white; */
+}
+
+.Hero{
+    /* color:brown; */
+    font-size: larger;
+}
+
+.before a{
+    color: white;
+}
+
+*.table 
+    /* color: aquamarine; */
+    /* display: inlin/e-table; */
+    /* font-size:xx-large; */
+    /* color: aquamarine; */
+}
+
+
